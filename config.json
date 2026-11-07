@@ -1,6 +1,7 @@
 {
   "zona_horaria": "America/Santo_Domingo",
   "dias_adelante": 60,
+  "dias_cartelera": 21,
   "aviso_minutos_antes": 30,
   "resumen_del_dia_hora": "09:00",
   "competiciones": [

@@ -20,6 +20,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -28,6 +29,7 @@ RAIZ = Path(__file__).resolve().parent
 DOCS = RAIZ / "docs"
 ESTADO = RAIZ / "estado_avisos.json"
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{liga}/teams/{equipo}/schedule?fixture=true"
+CARTELERA = "https://site.api.espn.com/apis/site/v2/sports/soccer/{liga}/scoreboard?dates={dia}&limit=200"
 NTFY_SERVIDOR = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 PAGINA_URL = os.environ.get("PAGINA_URL", "").strip()
@@ -62,48 +64,76 @@ def equipo(comp, favoritos):
     }
 
 
+def canales(comp):
+    tv = []
+    for b in comp.get("broadcasts", []) + comp.get("geoBroadcasts", []):
+        nombres = b.get("names") or [(b.get("media") or {}).get("shortName")]
+        for n in nombres:
+            if n and n not in tv:
+                tv.append(n)
+    return tv
+
+
 def buscar_partidos(cfg):
+    """Junta dos fuentes de ESPN:
+    - la cartelera diaria (scoreboard) de los próximos días: es la más fiable y al día
+      (el calendario por equipo a veces se salta los partidos más cercanos);
+    - el calendario de cada equipo (schedule): para ver partidos más lejanos."""
     ahora = datetime.now(timezone.utc)
     limite = ahora + timedelta(days=cfg.get("dias_adelante", 60))
+    dias_cartelera = int(cfg.get("dias_cartelera", 21))
     partidos, errores = {}, []
+
+    tareas = []  # (liga, url, descripcion)
     for liga in cfg["competiciones"]:
+        for i in range(-1, dias_cartelera + 1):
+            dia = (ahora + timedelta(days=i)).strftime("%Y%m%d")
+            tareas.append((liga, CARTELERA.format(liga=liga["id"], dia=dia), f"{liga['nombre']} {dia}"))
+        for tid, nombre in liga["equipos"].items():
+            tareas.append((liga, ESPN.format(liga=liga["id"], equipo=tid), f"{liga['nombre']} / {nombre}"))
+
+    def bajar(t):
+        try:
+            return t, descargar(t[1]), None
+        except (urllib.error.URLError, TimeoutError, ValueError) as e:
+            return t, None, e
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        resultados = list(pool.map(bajar, tareas))  # en orden: cartelera primero
+
+    for (liga, _url, desc), datos, error in resultados:
+        if error:
+            errores.append(f"{desc}: {error}")
+            continue
         favs = liga["equipos"]
-        for tid, nombre in favs.items():
-            try:
-                datos = descargar(ESPN.format(liga=liga["id"], equipo=tid))
-            except (urllib.error.URLError, TimeoutError, ValueError) as e:
-                errores.append(f"{liga['nombre']} / {nombre}: {e}")
+        for ev in datos.get("events", []):
+            comp = (ev.get("competitions") or [{}])[0]
+            inicio = fecha_espn(ev["date"])
+            if not (ahora - timedelta(hours=3) <= inicio <= limite):
                 continue
-            for ev in datos.get("events", []):
-                comp = (ev.get("competitions") or [{}])[0]
-                inicio = fecha_espn(ev["date"])
-                if not (ahora - timedelta(hours=3) <= inicio <= limite):
-                    continue
-                clave = f"{liga['id']}-{ev['id']}"
-                if clave in partidos:
-                    continue
-                lados = {c.get("homeAway"): equipo(c, favs) for c in comp.get("competitors", [])}
-                if "home" not in lados or "away" not in lados:
-                    continue
-                estado = (comp.get("status") or ev.get("status") or {}).get("type", {})
-                tv = []
-                for b in comp.get("broadcasts", []):
-                    n = (b.get("media") or {}).get("shortName")
-                    if n and n not in tv:
-                        tv.append(n)
-                partidos[clave] = {
-                    "id": clave,
-                    "liga": liga["id"],
-                    "liga_nombre": liga["nombre"],
-                    "color": liga.get("color", "#22c55e"),
-                    "inicio": inicio.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    "local": lados["home"],
-                    "visitante": lados["away"],
-                    "estadio": (comp.get("venue") or {}).get("fullName") or "",
-                    "tv": tv,
-                    "estado": estado.get("name", ""),
-                    "estado_texto": estado.get("shortDetail", ""),
-                }
+            clave = f"{liga['id']}-{ev['id']}"
+            if clave in partidos:
+                continue
+            lados = {c.get("homeAway"): equipo(c, favs) for c in comp.get("competitors", [])}
+            if "home" not in lados or "away" not in lados:
+                continue
+            if not (lados["home"]["favorito"] or lados["away"]["favorito"]):
+                continue
+            estado = (comp.get("status") or ev.get("status") or {}).get("type", {})
+            tv = canales(comp)
+            partidos[clave] = {
+                "id": clave,
+                "liga": liga["id"],
+                "liga_nombre": liga["nombre"],
+                "color": liga.get("color", "#22c55e"),
+                "inicio": inicio.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "local": lados["home"],
+                "visitante": lados["away"],
+                "estadio": (comp.get("venue") or {}).get("fullName") or "",
+                "tv": tv,
+                "estado": estado.get("name", ""),
+                "estado_texto": estado.get("shortDetail", ""),
+            }
     lista = sorted(partidos.values(), key=lambda p: p["inicio"])
     return lista, errores
 
@@ -185,7 +215,9 @@ def hora_local(dt, tz):
 def programar_avisos(partidos, cfg):
     tz = ZoneInfo(cfg["zona_horaria"])
     ahora = datetime.now(timezone.utc)
-    ventana = ahora + timedelta(hours=26)  # ntfy.sh permite programar hasta 3 días
+    # Solo se programa lo que toca en las próximas horas, así el aviso lleva los datos más
+    # recientes (horarios o partidos nuevos). GitHub ejecuta esto cada 2 h.
+    ventana = ahora + timedelta(hours=int(cfg.get("horas_programar", 5)))
     minutos = int(cfg.get("aviso_minutos_antes", 30))
     estado = json.loads(ESTADO.read_text()) if ESTADO.exists() else {}
     enviados = 0

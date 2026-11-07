@@ -11,7 +11,7 @@ Avisa al iPad cuando juegan nuestros equipos:
 ## Cómo funciona
 
 ```
-ESPN (gratis) ──► futbol_time.py (cada 3 h, en GitHub, gratis)
+ESPN (gratis) ──► futbol_time.py (cada 2 h, en GitHub, gratis)
                       ├─► docs/index.html + partidos.json  → página web bonita
                       ├─► docs/partidos.ics                 → calendario del iPad (alarma 30 min antes)
                       └─► ntfy                               → notificación push al iPad
@@ -50,7 +50,7 @@ En GitHub: **Settings → Secrets and variables → Actions → New repository s
 En 1–2 minutos estará en `https://TU_USUARIO.github.io/futbol-time/`.
 
 ### 4. Arrancar la automatización
-**Actions → Futbol Time → Run workflow**. Después se ejecuta solo cada 3 horas.
+**Actions → Futbol Time → Run workflow**. Después se ejecuta solo cada 2 horas.
 
 ---
 

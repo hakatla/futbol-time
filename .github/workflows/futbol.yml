@@ -2,7 +2,7 @@ name: Futbol Time
 
 on:
   schedule:
-    - cron: "17 */3 * * *"   # cada 3 horas
+    - cron: "17 */2 * * *"   # cada 2 horas
   workflow_dispatch:          # botón "Run workflow" para ejecutarlo a mano
 
 permissions:

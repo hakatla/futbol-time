@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T00:18:03Z",
+ "actualizado": "2026-11-07T00:34:02Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -45,7 +45,88 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/7 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-761935",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-07T21:00:00Z",
+   "local": {
+    "id": "182",
+    "nombre": "Chicago Fire",
+    "abrev": "CHI",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "183",
+    "nombre": "Columbus Crew",
+    "abrev": "CLB",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+    "favorito": false
+   },
+   "estadio": "SeatGeek Stadium",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-761938",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-07T21:00:00Z",
+   "local": {
+    "id": "20232",
+    "nombre": "Inter Miami",
+    "abrev": "MIA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "21300",
+    "nombre": "Charlotte FC",
+    "abrev": "CLT",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+    "favorito": false
+   },
+   "estadio": "Nu Stadium",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-761948",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-08T00:00:00Z",
+   "local": {
+    "id": "9726",
+    "nombre": "Seattle Sounders FC",
+    "abrev": "SEA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "18966",
+    "nombre": "LAFC",
+    "abrev": "LAFC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "favorito": true
+   },
+   "estadio": "Lumen Field",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882810",
@@ -72,7 +153,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/8 - 10:15 AM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882816",
@@ -100,7 +181,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/8 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882798",
@@ -128,7 +209,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/21 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882804",
@@ -156,7 +237,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/22 - 8:00 AM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882800",
@@ -184,7 +265,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/22 - 10:15 AM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882803",
@@ -212,61 +293,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/22 - 3:00 PM EST"
-  },
-  {
-   "id": "uefa.champions-401915298",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-24T20:00:00Z",
-   "local": {
-    "id": "86",
-    "nombre": "Real Madrid",
-    "abrev": "RMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "148",
-    "nombre": "PSV Eindhoven",
-    "abrev": "PSV",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-    "favorito": false
-   },
-   "estadio": "Santiago Bernabéu",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/24 - 3:00 PM EST"
-  },
-  {
-   "id": "uefa.champions-401915379",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-24T20:00:00Z",
-   "local": {
-    "id": "382",
-    "nombre": "Manchester City",
-    "abrev": "MNC",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "114",
-    "nombre": "Napoli",
-    "abrev": "NAP",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "favorito": false
-   },
-   "estadio": "Etihad Stadium",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/24 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915295",
@@ -293,7 +320,61 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/24 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "uefa.champions-401915379",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-24T20:00:00Z",
+   "local": {
+    "id": "382",
+    "nombre": "Manchester City",
+    "abrev": "MNC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "114",
+    "nombre": "Napoli",
+    "abrev": "NAP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "favorito": false
+   },
+   "estadio": "Etihad Stadium",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "uefa.champions-401915298",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-24T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "148",
+    "nombre": "PSV Eindhoven",
+    "abrev": "PSV",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915378",
@@ -320,34 +401,7 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/25 - 12:45 PM EST"
-  },
-  {
-   "id": "uefa.champions-401915374",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-25T20:00:00Z",
-   "local": {
-    "id": "160",
-    "nombre": "PSG",
-    "abrev": "PSG",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "104",
-    "nombre": "AS Roma",
-    "abrev": "ROMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "favorito": false
-   },
-   "estadio": "Parc des Princes",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/25 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915377",
@@ -374,7 +428,34 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/25 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "uefa.champions-401915374",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-25T20:00:00Z",
+   "local": {
+    "id": "160",
+    "nombre": "PSG",
+    "abrev": "PSG",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "104",
+    "nombre": "AS Roma",
+    "abrev": "ROMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "favorito": false
+   },
+   "estadio": "Parc des Princes",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882793",
@@ -401,7 +482,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/28 - 12:30 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882789",
@@ -428,7 +509,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/28 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882794",
