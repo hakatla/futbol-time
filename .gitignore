@@ -1,0 +1,4 @@
+.claude/
+__pycache__/
+.DS_Store
+mi_tema_ntfy.txt

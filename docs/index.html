@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Futbol Time</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Futbol Time">
+<meta name="theme-color" content="#07111f">
+<link rel="apple-touch-icon" href="icono.png">
+<link rel="icon" href="icono.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#07111f; --bg2:#0c1a2e; --card:#10213a; --card2:#152a49; --line:#1f3657;
+    --text:#eef4ff; --muted:#8ea3c2; --green:#2ee27a; --green2:#18b85c; --gold:#ffd23f;
+    --r:20px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,sans-serif;
+    min-height:100vh;
+    background-image:
+      radial-gradient(1200px 500px at 50% -200px, rgba(46,226,122,.18), transparent 70%),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.015) 0 80px, transparent 80px 160px);
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 20px) 16px 60px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo .ball{font-size:34px;animation:spin 6s linear infinite;display:inline-block}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  h1{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:36px;letter-spacing:.5px;text-transform:uppercase;line-height:1}
+  h1 span{color:var(--green)}
+  .upd{font-size:12px;color:var(--muted);text-align:right}
+
+  /* Próximo partido */
+  .hero{
+    position:relative;overflow:hidden;border-radius:28px;padding:22px 20px 24px;margin-bottom:22px;
+    background:linear-gradient(160deg,#0f5132 0%,#0b3b28 45%,#08263f 100%);
+    border:1px solid rgba(46,226,122,.35);box-shadow:0 20px 60px -20px rgba(46,226,122,.35);
+  }
+  .hero::before{ /* líneas de cancha */
+    content:"";position:absolute;inset:0;pointer-events:none;opacity:.12;
+    background:
+      radial-gradient(circle at 50% 50%, transparent 58px, #fff 59px, #fff 61px, transparent 62px),
+      linear-gradient(90deg, transparent calc(50% - 1px), #fff calc(50% - 1px), #fff calc(50% + 1px), transparent calc(50% + 1px));
+  }
+  .hero .tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;
+    background:rgba(0,0,0,.28);padding:6px 12px;border-radius:99px;color:var(--gold)}
+  .hero .tag.live{color:#fff;background:#e5263d}
+  .hero .tag.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;animation:pulse 1s infinite}
+  @keyframes pulse{50%{opacity:.2}}
+  .versus{position:relative;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin:20px 0 16px}
+  .team{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;min-width:0}
+  .crest{width:96px;height:96px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .crest img{width:72%;height:72%;object-fit:contain}
+  .team .name{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:24px;line-height:1.05;text-transform:uppercase;overflow-wrap:anywhere}
+  .vs{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:28px;color:rgba(255,255,255,.6)}
+  .count{position:relative;display:flex;justify-content:center;gap:10px;margin-top:6px}
+  .count div{background:rgba(0,0,0,.3);border-radius:14px;padding:10px 0;width:74px;text-align:center}
+  .count b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:36px;line-height:1}
+  .count small{font-size:11px;color:#bfe9d1;text-transform:uppercase;letter-spacing:1px}
+  .hero .meta{position:relative;text-align:center;margin-top:16px;color:#d8f5e5;font-size:15px;line-height:1.5}
+  .hero .meta strong{color:#fff}
+
+  /* Filtros */
+  .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:18px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);font:600 14px Inter,sans-serif;
+    padding:10px 16px;border-radius:99px;cursor:pointer;display:flex;align-items:center;gap:8px;transition:.15s}
+  .chip i{width:10px;height:10px;border-radius:50%;background:var(--c,var(--green))}
+  .chip[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text)}
+
+  /* Lista */
+  .day{margin:26px 0 10px;display:flex;align-items:baseline;gap:10px}
+  .day h2{font-family:"Barlow Condensed",sans-serif;font-size:22px;text-transform:uppercase;letter-spacing:.5px}
+  .day .hoy{background:var(--green);color:#03210f;font-size:11px;font-weight:800;padding:3px 8px;border-radius:6px;text-transform:uppercase}
+  .day span.n{color:var(--muted);font-size:13px}
+  .match{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);
+    border-left:5px solid var(--c);border-radius:var(--r);padding:14px 16px;margin-bottom:10px}
+  .match .time{text-align:center}
+  .match .time b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:26px;line-height:1}
+  .match .time small{color:var(--muted);font-size:12px}
+  .rows{display:flex;flex-direction:column;gap:6px;min-width:0}
+  .row{display:flex;align-items:center;gap:10px;min-width:0}
+  .row img{width:26px;height:26px;object-fit:contain;background:#fff;border-radius:50%;padding:3px;flex:none}
+  .row .tn{font-weight:600;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row.fav .tn{color:var(--gold)}
+  .row.fav .tn::after{content:" ★";font-size:12px}
+  .info{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .pill{font-size:11.5px;font-weight:600;padding:4px 9px;border-radius:99px;background:var(--card2);color:var(--muted)}
+  .pill.l{background:color-mix(in srgb,var(--c) 22%,transparent);color:#fff}
+  .pill.live{background:#e5263d;color:#fff}
+
+  .empty{text-align:center;color:var(--muted);padding:40px 10px}
+  .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:34px}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:700;font-size:15px;
+    padding:15px;border-radius:16px;background:var(--card);border:1px solid var(--line);color:var(--text)}
+  .btn.main{background:var(--green);border-color:var(--green);color:#03210f}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:22px}
+  @media (max-width:520px){
+    h1{font-size:30px}
+    .crest{width:76px;height:76px}
+    .team .name{font-size:19px}
+    .count div{width:62px}.count b{font-size:30px}
+    .actions{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><span class="ball">⚽</span><h1>Futbol <span>Time</span></h1></div>
+    <div class="upd" id="upd"></div>
+  </header>
+
+  <section class="hero" id="hero" hidden></section>
+  <nav class="chips" id="chips"></nav>
+  <main id="lista"><p class="empty">Cargando partidos…</p></main>
+
+  <div class="actions">
+    <a class="btn main" id="cal" href="partidos.ics">📅 Añadir al calendario</a>
+    <a class="btn" href="https://apps.apple.com/app/ntfy/id1625396347">🔔 App de avisos (ntfy)</a>
+  </div>
+  <footer>Horarios en tu hora local · Datos de ESPN</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+let datos = null, filtro = "todos", reloj = null;
+
+// enlace webcal:// para suscribirse (el iPad abre "Suscribirse a calendario")
+try {
+  const u = new URL("partidos.ics", location.href);
+  if (u.protocol.startsWith("http")) $("#cal").href = u.href.replace(/^https?:/, "webcal:");
+} catch (e) {}
+
+const hora = d => d.toLocaleTimeString("es", {hour:"numeric", minute:"2-digit", hour12:true});
+const claveDia = d => `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+function nombreDia(d){
+  const hoy = new Date(), man = new Date(); man.setDate(hoy.getDate()+1);
+  if (claveDia(d)===claveDia(hoy)) return "Hoy";
+  if (claveDia(d)===claveDia(man)) return "Mañana";
+  return `${DIAS[d.getDay()]} ${d.getDate()} de ${MESES[d.getMonth()]}`;
+}
+const enVivo = p => p.estado === "STATUS_IN_PROGRESS" || p.estado === "STATUS_HALFTIME" ||
+  (Date.now() >= new Date(p.inicio) && Date.now() < +new Date(p.inicio) + 115*60e3 && !/FINAL|FULL/.test(p.estado));
+const terminado = p => Date.now() > +new Date(p.inicio) + 2.5*3600e3 || /FINAL|FULL_TIME/.test(p.estado);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const img = t => t.escudo ? `<img src="${esc(t.escudo)}" alt="" loading="lazy">` : `<span style="font-size:22px">⚽</span>`;
+
+function chips(){
+  const comps = [{id:"todos", nombre:"Todos", color:"#2ee27a"}, ...datos.competiciones];
+  $("#chips").innerHTML = comps.map(c =>
+    `<button class="chip" style="--c:${c.color}" data-id="${c.id}" aria-pressed="${c.id===filtro}"><i></i>${esc(c.nombre)}</button>`).join("");
+  $("#chips").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; filtro = b.dataset.id; pintar(); };
+}
+
+function hero(p){
+  const h = $("#hero");
+  if (!p){ h.hidden = true; return; }
+  h.hidden = false;
+  const d = new Date(p.inicio), live = enVivo(p);
+  h.innerHTML = `
+    <span class="tag ${live?"live":""}">${live ? "En vivo ahora" : "★ Próximo partido"}</span>
+    <div class="versus">
+      <div class="team"><div class="crest">${img(p.local)}</div><div class="name">${esc(p.local.nombre)}</div></div>
+      <div class="vs">VS</div>
+      <div class="team"><div class="crest">${img(p.visitante)}</div><div class="name">${esc(p.visitante.nombre)}</div></div>
+    </div>
+    ${live ? "" : `<div class="count" id="count"></div>`}
+    <div class="meta"><strong>${esc(p.liga_nombre)}</strong> · ${nombreDia(d)} · ${hora(d)}
+      ${p.tv.length ? `<br>📺 ${esc(p.tv.join(", "))}` : ""}${p.estadio ? `<br>🏟️ ${esc(p.estadio)}` : ""}</div>`;
+  clearInterval(reloj);
+  if (!live){
+    const tick = () => {
+      let s = Math.max(0, Math.floor((d - Date.now())/1000));
+      if (s === 0) return pintar();
+      const v = [[Math.floor(s/86400),"días"],[Math.floor(s%86400/3600),"horas"],[Math.floor(s%3600/60),"min"],[s%60,"seg"]];
+      $("#count").innerHTML = v.map(([n,l]) => `<div><b>${String(n).padStart(2,"0")}</b><small>${l}</small></div>`).join("");
+    };
+    tick(); reloj = setInterval(tick, 1000);
+  }
+}
+
+function fila(t){ return `<div class="row ${t.favorito?"fav":""}">${img(t)}<span class="tn">${esc(t.nombre)}</span></div>`; }
+
+function pintar(){
+  chips();
+  const lista = datos.partidos.filter(p => !terminado(p) && (filtro==="todos" || p.liga===filtro));
+  hero(lista[0]);
+  if (!lista.length){ $("#lista").innerHTML = `<p class="empty">No hay partidos próximos aquí 😴</p>`; return; }
+  let html = "", dia = "";
+  const cuenta = {};
+  lista.forEach(p => { const k = claveDia(new Date(p.inicio)); cuenta[k] = (cuenta[k]||0)+1; });
+  for (const p of lista){
+    const d = new Date(p.inicio), k = claveDia(d);
+    if (k !== dia){
+      dia = k; const nd = nombreDia(d);
+      html += `<div class="day"><h2>${nd}</h2>${nd==="Hoy"?'<span class="hoy">¡Hoy!</span>':""}<span class="n">${cuenta[k]} partido${cuenta[k]>1?"s":""}</span></div>`;
+    }
+    const live = enVivo(p);
+    html += `<article class="match" style="--c:${p.color}">
+      <div class="time"><b>${d.getHours()%12||12}:${String(d.getMinutes()).padStart(2,"0")}</b><small>${d.getHours()<12?"a. m.":"p. m."}</small></div>
+      <div class="rows">${fila(p.local)}${fila(p.visitante)}
+        <div class="info"><span class="pill l">${esc(p.liga_nombre)}</span>${live?'<span class="pill live">EN VIVO</span>':""}
+          ${p.tv.slice(0,2).map(t=>`<span class="pill">📺 ${esc(t)}</span>`).join("")}</div></div>
+    </article>`;
+  }
+  $("#lista").innerHTML = html;
+}
+
+async function cargar(){
+  try {
+    const r = await fetch("partidos.json?t=" + Date.now(), {cache:"no-store"});
+    datos = await r.json();
+    const a = new Date(datos.actualizado);
+    $("#upd").textContent = `Actualizado ${nombreDia(a).toLowerCase()} ${hora(a)}`;
+    pintar();
+  } catch (e) {
+    $("#lista").innerHTML = `<p class="empty">No pude cargar los partidos. Revisa la conexión 📶</p>`;
+  }
+}
+cargar();
+setInterval(cargar, 15*60e3);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) cargar(); });
+</script>
+</body>
+</html>

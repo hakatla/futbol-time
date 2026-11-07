@@ -1,0 +1,43 @@
+{
+  "zona_horaria": "America/Santo_Domingo",
+  "dias_adelante": 60,
+  "aviso_minutos_antes": 30,
+  "resumen_del_dia_hora": "09:00",
+  "competiciones": [
+    {
+      "id": "usa.1",
+      "nombre": "MLS",
+      "color": "#E31B23",
+      "equipos": {
+        "20232": "Inter Miami",
+        "18966": "LAFC",
+        "182": "Chicago Fire"
+      }
+    },
+    {
+      "id": "esp.1",
+      "nombre": "LaLiga",
+      "color": "#FF4B44",
+      "equipos": {
+        "83": "Barcelona",
+        "86": "Real Madrid",
+        "89": "Real Sociedad",
+        "1068": "Atlético de Madrid"
+      }
+    },
+    {
+      "id": "uefa.champions",
+      "nombre": "Champions League",
+      "color": "#3B5BFF",
+      "equipos": {
+        "160": "PSG",
+        "83": "Barcelona",
+        "86": "Real Madrid",
+        "93": "Athletic Club (Bilbao)",
+        "382": "Manchester City",
+        "132": "Bayern Múnich",
+        "359": "Arsenal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+ "actualizado": "2026-11-07T00:02:10Z",
+ "zona_horaria": "America/Santo_Domingo",
+ "competiciones": [
+  {
+   "id": "usa.1",
+   "nombre": "MLS",
+   "color": "#E31B23"
+  },
+  {
+   "id": "esp.1",
+   "nombre": "LaLiga",
+   "color": "#FF4B44"
+  },
+  {
+   "id": "uefa.champions",
+   "nombre": "Champions League",
+   "color": "#3B5BFF"
+  }
+ ],
+ "partidos": [
+  {
+   "id": "esp.1-401882808",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-07T20:00:00Z",
+   "local": {
+    "id": "94",
+    "nombre": "Valencia",
+    "abrev": "VAL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "Mestalla Stadium",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/7 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882810",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-08T15:15:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "101",
+    "nombre": "Rayo Vallecano",
+    "abrev": "RAY",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/8 - 10:15 AM EST"
+  },
+  {
+   "id": "esp.1-401882816",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-08T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/8 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882798",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-21T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "85",
+    "nombre": "Celta Vigo",
+    "abrev": "CEL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/21 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882804",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-22T13:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "102",
+    "nombre": "Villarreal",
+    "abrev": "VIL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "favorito": false
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/22 - 8:00 AM EST"
+  },
+  {
+   "id": "esp.1-401882800",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-22T15:15:00Z",
+   "local": {
+    "id": "87",
+    "nombre": "Racing Santander",
+    "abrev": "RAC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "estadio": "El Sardineros",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/22 - 10:15 AM EST"
+  },
+  {
+   "id": "esp.1-401882803",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-22T20:00:00Z",
+   "local": {
+    "id": "2922",
+    "nombre": "Getafe",
+    "abrev": "GET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Estadio Coliseum",
+   "tv": [
+    "ESPN Deportes",
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/22 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915298",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-24T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "148",
+    "nombre": "PSV Eindhoven",
+    "abrev": "PSV",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/24 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915379",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-24T20:00:00Z",
+   "local": {
+    "id": "382",
+    "nombre": "Manchester City",
+    "abrev": "MNC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "114",
+    "nombre": "Napoli",
+    "abrev": "NAP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "favorito": false
+   },
+   "estadio": "Etihad Stadium",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/24 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915295",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-24T20:00:00Z",
+   "local": {
+    "id": "359",
+    "nombre": "Arsenal",
+    "abrev": "ARS",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "124",
+    "nombre": "Borussia Dortmund",
+    "abrev": "DOR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "favorito": false
+   },
+   "estadio": "Emirates Stadium",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/24 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915378",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-25T17:45:00Z",
+   "local": {
+    "id": "21922",
+    "nombre": "Sabah FK",
+    "abrev": "SAB",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "Baku Olympic Stadium",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/25 - 12:45 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915374",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-25T20:00:00Z",
+   "local": {
+    "id": "160",
+    "nombre": "PSG",
+    "abrev": "PSG",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "104",
+    "nombre": "AS Roma",
+    "abrev": "ROMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "favorito": false
+   },
+   "estadio": "Parc des Princes",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/25 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915377",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-11-25T20:00:00Z",
+   "local": {
+    "id": "166",
+    "nombre": "Lille",
+    "abrev": "LILL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "132",
+    "nombre": "Bayern Múnich",
+    "abrev": "MUN",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "favorito": true
+   },
+   "estadio": "Decathlon Arena - Stade Pierre-Mauroy",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/25 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882793",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-28T17:30:00Z",
+   "local": {
+    "id": "3751",
+    "nombre": "Elche",
+    "abrev": "ELC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Estadio Martínez Valero",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/28 - 12:30 PM EST"
+  },
+  {
+   "id": "esp.1-401882789",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-28T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "96",
+    "nombre": "Alavés",
+    "abrev": "ALA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/28 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882794",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-29T15:15:00Z",
+   "local": {
+    "id": "90",
+    "nombre": "Deportivo",
+    "abrev": "DEP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "Riazor",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/29 - 10:15 AM EST"
+  },
+  {
+   "id": "esp.1-401882788",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-11-29T20:00:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "243",
+    "nombre": "Sevilla",
+    "abrev": "SEV",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "11/29 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882698",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-02T18:00:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/2 - 1:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882700",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-02T20:30:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/2 - 3:30 PM EST"
+  },
+  {
+   "id": "esp.1-401882783",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-06T20:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "85",
+    "nombre": "Celta Vigo",
+    "abrev": "CEL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "favorito": false
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882785",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-06T20:00:00Z",
+   "local": {
+    "id": "93",
+    "nombre": "Athletic Club",
+    "abrev": "ATH",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "San Mamés",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882777",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-06T20:00:00Z",
+   "local": {
+    "id": "102",
+    "nombre": "Villarreal",
+    "abrev": "VIL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "estadio": "Estadio de la Cerámica",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882784",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-06T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "244",
+    "nombre": "Real Betis",
+    "abrev": "BET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "uefa.champions-401915286",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-12-08T20:00:00Z",
+   "local": {
+    "id": "362",
+    "nombre": "Aston Villa",
+    "abrev": "AVL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "160",
+    "nombre": "PSG",
+    "abrev": "PSG",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "favorito": true
+   },
+   "estadio": "Villa Park",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/8 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915285",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-12-08T20:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "382",
+    "nombre": "Manchester City",
+    "abrev": "MNC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "favorito": true
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/8 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915284",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-12-08T20:00:00Z",
+   "local": {
+    "id": "132",
+    "nombre": "Bayern Múnich",
+    "abrev": "MUN",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "494",
+    "nombre": "Slavia Prague",
+    "abrev": "SLP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+    "favorito": false
+   },
+   "estadio": "Allianz Arena",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/8 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915367",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2026-12-09T20:00:00Z",
+   "local": {
+    "id": "359",
+    "nombre": "Arsenal",
+    "abrev": "ARS",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "Emirates Stadium",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "12/9 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882770",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-13T20:00:00Z",
+   "local": {
+    "id": "99",
+    "nombre": "Málaga",
+    "abrev": "MCF",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "La Rosaleda",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882769",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-13T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "97",
+    "nombre": "Osasuna",
+    "abrev": "OSA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882768",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-13T20:00:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "2922",
+    "nombre": "Getafe",
+    "abrev": "GET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882776",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-13T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "94",
+    "nombre": "Valencia",
+    "abrev": "VAL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882762",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-20T20:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882763",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-20T20:00:00Z",
+   "local": {
+    "id": "90",
+    "nombre": "Deportivo",
+    "abrev": "DEP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "Riazor",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882764",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2026-12-20T20:00:00Z",
+   "local": {
+    "id": "85",
+    "nombre": "Celta Vigo",
+    "abrev": "CEL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Balaidos",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882754",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2027-01-03T20:00:00Z",
+   "local": {
+    "id": "88",
+    "nombre": "Espanyol",
+    "abrev": "ESP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "RCDE Stadium",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882749",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2027-01-03T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "2922",
+    "nombre": "Getafe",
+    "abrev": "GET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882748",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2027-01-03T20:00:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "97",
+    "nombre": "Osasuna",
+    "abrev": "OSA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882750",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF4B44",
+   "inicio": "2027-01-03T20:00:00Z",
+   "local": {
+    "id": "101",
+    "nombre": "Rayo Vallecano",
+    "abrev": "RAY",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Estadio de Vallecas",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  }
+ ]
+}
