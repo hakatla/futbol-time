@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T00:34:13Z",
+ "actualizado": "2026-11-07T00:38:01Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -10,7 +10,7 @@
   {
    "id": "esp.1",
    "nombre": "LaLiga",
-   "color": "#FF4B44"
+   "color": "#FF9F1C"
   },
   {
    "id": "uefa.champions",
@@ -23,7 +23,7 @@
    "id": "esp.1-401882808",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-07T20:00:00Z",
    "local": {
     "id": "94",
@@ -132,7 +132,7 @@
    "id": "esp.1-401882810",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-08T15:15:00Z",
    "local": {
     "id": "89",
@@ -159,7 +159,7 @@
    "id": "esp.1-401882816",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-08T20:00:00Z",
    "local": {
     "id": "1068",
@@ -187,7 +187,7 @@
    "id": "esp.1-401882798",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-21T20:00:00Z",
    "local": {
     "id": "86",
@@ -215,7 +215,7 @@
    "id": "esp.1-401882804",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-22T13:00:00Z",
    "local": {
     "id": "83",
@@ -243,7 +243,7 @@
    "id": "esp.1-401882800",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-22T15:15:00Z",
    "local": {
     "id": "87",
@@ -271,7 +271,7 @@
    "id": "esp.1-401882803",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-22T20:00:00Z",
    "local": {
     "id": "2922",
@@ -461,7 +461,7 @@
    "id": "esp.1-401882793",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-28T17:30:00Z",
    "local": {
     "id": "3751",
@@ -488,7 +488,7 @@
    "id": "esp.1-401882789",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-28T20:00:00Z",
    "local": {
     "id": "86",
@@ -515,7 +515,7 @@
    "id": "esp.1-401882794",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-29T15:15:00Z",
    "local": {
     "id": "90",
@@ -542,7 +542,7 @@
    "id": "esp.1-401882788",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-11-29T20:00:00Z",
    "local": {
     "id": "89",
@@ -569,7 +569,7 @@
    "id": "esp.1-401882698",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-02T18:00:00Z",
    "local": {
     "id": "89",
@@ -596,7 +596,7 @@
    "id": "esp.1-401882700",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-02T20:30:00Z",
    "local": {
     "id": "83",
@@ -623,7 +623,7 @@
    "id": "esp.1-401882783",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-06T20:00:00Z",
    "local": {
     "id": "83",
@@ -650,7 +650,7 @@
    "id": "esp.1-401882785",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-06T20:00:00Z",
    "local": {
     "id": "93",
@@ -677,7 +677,7 @@
    "id": "esp.1-401882777",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-06T20:00:00Z",
    "local": {
     "id": "102",
@@ -704,7 +704,7 @@
    "id": "esp.1-401882784",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-06T20:00:00Z",
    "local": {
     "id": "1068",
@@ -839,7 +839,7 @@
    "id": "esp.1-401882770",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-13T20:00:00Z",
    "local": {
     "id": "99",
@@ -866,7 +866,7 @@
    "id": "esp.1-401882769",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-13T20:00:00Z",
    "local": {
     "id": "86",
@@ -893,7 +893,7 @@
    "id": "esp.1-401882768",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-13T20:00:00Z",
    "local": {
     "id": "89",
@@ -920,7 +920,7 @@
    "id": "esp.1-401882776",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-13T20:00:00Z",
    "local": {
     "id": "1068",
@@ -947,7 +947,7 @@
    "id": "esp.1-401882762",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-20T20:00:00Z",
    "local": {
     "id": "83",
@@ -974,7 +974,7 @@
    "id": "esp.1-401882763",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-20T20:00:00Z",
    "local": {
     "id": "90",
@@ -1001,7 +1001,7 @@
    "id": "esp.1-401882764",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2026-12-20T20:00:00Z",
    "local": {
     "id": "85",
@@ -1028,7 +1028,7 @@
    "id": "esp.1-401882754",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2027-01-03T20:00:00Z",
    "local": {
     "id": "88",
@@ -1055,7 +1055,7 @@
    "id": "esp.1-401882749",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2027-01-03T20:00:00Z",
    "local": {
     "id": "86",
@@ -1082,7 +1082,7 @@
    "id": "esp.1-401882748",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2027-01-03T20:00:00Z",
    "local": {
     "id": "89",
@@ -1109,7 +1109,7 @@
    "id": "esp.1-401882750",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
-   "color": "#FF4B44",
+   "color": "#FF9F1C",
    "inicio": "2027-01-03T20:00:00Z",
    "local": {
     "id": "101",
