@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T01:16:08Z",
+ "actualizado": "2026-11-08T02:59:00Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -43,8 +43,8 @@
    "tv": [
     "Apple TV"
    ],
-   "estado": "STATUS_HALFTIME",
-   "estado_texto": "HT"
+   "estado": "STATUS_FULL_TIME",
+   "estado_texto": "FT"
   },
   {
    "id": "esp.1-401882810",
