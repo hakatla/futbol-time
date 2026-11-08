@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T02:59:00Z",
+ "actualizado": "2026-11-08T05:00:08Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,33 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "usa.1-761948",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-08T00:00:00Z",
-   "local": {
-    "id": "9726",
-    "nombre": "Seattle Sounders FC",
-    "abrev": "SEA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "18966",
-    "nombre": "LAFC",
-    "abrev": "LAFC",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-    "favorito": true
-   },
-   "estadio": "Lumen Field",
-   "tv": [
-    "Apple TV"
-   ],
-   "estado": "STATUS_FULL_TIME",
-   "estado_texto": "FT"
-  },
   {
    "id": "esp.1-401882810",
    "liga": "esp.1",
