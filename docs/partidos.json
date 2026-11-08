@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T22:46:21Z",
+ "actualizado": "2026-11-08T01:16:08Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,88 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "esp.1-401882808",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-11-07T20:00:00Z",
-   "local": {
-    "id": "94",
-    "nombre": "Valencia",
-    "abrev": "VAL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "86",
-    "nombre": "Real Madrid",
-    "abrev": "RMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-    "favorito": true
-   },
-   "estadio": "Mestalla Stadium",
-   "tv": [
-    "ESPN Deportes",
-    "ESPN+"
-   ],
-   "estado": "STATUS_FULL_TIME",
-   "estado_texto": "FT"
-  },
-  {
-   "id": "usa.1-761935",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-07T21:00:00Z",
-   "local": {
-    "id": "182",
-    "nombre": "Chicago Fire",
-    "abrev": "CHI",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "183",
-    "nombre": "Columbus Crew",
-    "abrev": "CLB",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-    "favorito": false
-   },
-   "estadio": "SeatGeek Stadium",
-   "tv": [
-    "Apple TV"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "72'"
-  },
-  {
-   "id": "usa.1-761938",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-07T21:00:00Z",
-   "local": {
-    "id": "20232",
-    "nombre": "Inter Miami",
-    "abrev": "MIA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "21300",
-    "nombre": "Charlotte FC",
-    "abrev": "CLT",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-    "favorito": false
-   },
-   "estadio": "Nu Stadium",
-   "tv": [
-    "Apple TV"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "75'"
-  },
   {
    "id": "usa.1-761948",
    "liga": "usa.1",
@@ -125,8 +43,8 @@
    "tv": [
     "Apple TV"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_HALFTIME",
+   "estado_texto": "HT"
   },
   {
    "id": "esp.1-401882810",
@@ -536,7 +454,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/29 - 10:15 AM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882788",
@@ -563,7 +481,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "11/29 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882698",
