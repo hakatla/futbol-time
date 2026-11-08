@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T20:47:08Z",
+ "actualizado": "2026-11-08T22:46:37Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -44,8 +44,8 @@
     "ESPN Deportes",
     "ESPN+"
    ],
-   "estado": "STATUS_FIRST_HALF",
-   "estado_texto": "45'"
+   "estado": "STATUS_FULL_TIME",
+   "estado_texto": "FT"
   },
   {
    "id": "esp.1-401882798",
