@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T16:48:20Z",
+ "actualizado": "2026-11-08T18:54:59Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,33 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "esp.1-401882810",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-11-08T15:15:00Z",
-   "local": {
-    "id": "89",
-    "nombre": "Real Sociedad",
-    "abrev": "RSO",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "101",
-    "nombre": "Rayo Vallecano",
-    "abrev": "RAY",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "favorito": false
-   },
-   "estadio": "Reale Arena",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "72'"
-  },
   {
    "id": "esp.1-401882816",
    "liga": "esp.1",
