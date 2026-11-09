@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T01:19:58Z",
+ "actualizado": "2026-11-09T02:57:40Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -43,6 +43,33 @@
    "tv": [
     "ESPN Deportes",
     "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933739",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-21T23:00:00Z",
+   "local": {
+    "id": "20232",
+    "nombre": "Inter Miami",
+    "abrev": "MIA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "183",
+    "nombre": "Columbus Crew",
+    "abrev": "CLB",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+    "favorito": false
+   },
+   "estadio": "Nu Stadium",
+   "tv": [
+    "Apple TV"
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "Scheduled"
@@ -127,6 +154,62 @@
    "tv": [
     "ESPN Deportes",
     "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933730",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-22T23:30:00Z",
+   "local": {
+    "id": "182",
+    "nombre": "Chicago Fire",
+    "abrev": "CHI",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "21300",
+    "nombre": "Charlotte FC",
+    "abrev": "CLT",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+    "favorito": false
+   },
+   "estadio": "SeatGeek Stadium",
+   "tv": [
+    "FS1",
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933728",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-24T01:00:00Z",
+   "local": {
+    "id": "21812",
+    "nombre": "St. Louis CITY SC",
+    "abrev": "STL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "18966",
+    "nombre": "LAFC",
+    "abrev": "LAFC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "favorito": true
+   },
+   "estadio": "Energizer Park",
+   "tv": [
+    "FS1",
+    "Apple TV"
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "Scheduled"
