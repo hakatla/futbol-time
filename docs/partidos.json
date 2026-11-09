@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T02:57:40Z",
+ "actualizado": "2026-11-09T05:16:31Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -377,6 +377,61 @@
    "estado_texto": "Scheduled"
   },
   {
+   "id": "usa.1-401933727",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-28T01:00:00Z",
+   "local": {
+    "id": "183",
+    "nombre": "Columbus Crew",
+    "abrev": "CLB",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "20232",
+    "nombre": "Inter Miami",
+    "abrev": "MIA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+    "favorito": true
+   },
+   "estadio": "ScottsMiracle-Gro Field",
+   "tv": [
+    "FS1",
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933737",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-28T17:30:00Z",
+   "local": {
+    "id": "21300",
+    "nombre": "Charlotte FC",
+    "abrev": "CLT",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "182",
+    "nombre": "Chicago Fire",
+    "abrev": "CHI",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+    "favorito": true
+   },
+   "estadio": "Bank of America Stadium",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
    "id": "esp.1-401882793",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
@@ -426,6 +481,33 @@
    "estadio": "Santiago Bernabéu",
    "tv": [
     "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933726",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-11-29T01:30:00Z",
+   "local": {
+    "id": "18966",
+    "nombre": "LAFC",
+    "abrev": "LAFC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "21812",
+    "nombre": "St. Louis CITY SC",
+    "abrev": "STL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+    "favorito": false
+   },
+   "estadio": "BMO Stadium",
+   "tv": [
+    "Apple TV"
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "Scheduled"
