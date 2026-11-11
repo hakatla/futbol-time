@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T22:52:50Z",
+ "actualizado": "2026-11-11T01:16:22Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -591,7 +591,88 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/2 - 1:00 PM EST"
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "usa.1-401933718",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-12-02T20:00:00Z",
+   "local": {
+    "id": "182",
+    "nombre": "Chicago Fire",
+    "abrev": "CHI",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "21300",
+    "nombre": "Charlotte FC",
+    "abrev": "CLT",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+    "favorito": false
+   },
+   "estadio": "SeatGeek Stadium",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "usa.1-401933720",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-12-02T20:00:00Z",
+   "local": {
+    "id": "20232",
+    "nombre": "Inter Miami",
+    "abrev": "MIA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "183",
+    "nombre": "Columbus Crew",
+    "abrev": "CLB",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+    "favorito": false
+   },
+   "estadio": "Nu Stadium",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "usa.1-401933735",
+   "liga": "usa.1",
+   "liga_nombre": "MLS",
+   "color": "#E31B23",
+   "inicio": "2026-12-02T20:00:00Z",
+   "local": {
+    "id": "21812",
+    "nombre": "St. Louis CITY SC",
+    "abrev": "STL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "18966",
+    "nombre": "LAFC",
+    "abrev": "LAFC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "favorito": true
+   },
+   "estadio": "Energizer Park",
+   "tv": [
+    "Apple TV"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
   },
   {
    "id": "esp.1-401882700",
@@ -618,7 +699,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/2 - 3:30 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882783",
