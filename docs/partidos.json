@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:08:52Z",
+ "actualizado": "2026-11-11T21:53:20Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -1208,6 +1208,114 @@
     "favorito": true
    },
    "estadio": "Estadio de Vallecas",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882740",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-10T20:00:00Z",
+   "local": {
+    "id": "97",
+    "nombre": "Osasuna",
+    "abrev": "OSA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "El Sadar",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882739",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-10T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "1538",
+    "nombre": "Levante",
+    "abrev": "LEV",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882746",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-10T20:00:00Z",
+   "local": {
+    "id": "96",
+    "nombre": "Alavés",
+    "abrev": "ALA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "estadio": "Mendizorrotza",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882744",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-10T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "87",
+    "nombre": "Racing Santander",
+    "abrev": "RAC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
    "tv": [
     "ESPN+"
    ],
