@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T18:55:52Z",
+ "actualizado": "2026-11-15T20:50:25Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -760,7 +760,7 @@
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
    "color": "#FF9F1C",
-   "inicio": "2026-12-06T20:00:00Z",
+   "inicio": "2026-12-06T15:15:00Z",
    "local": {
     "id": "93",
     "nombre": "Athletic Club",
@@ -780,7 +780,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882784",
@@ -807,7 +807,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915286",
