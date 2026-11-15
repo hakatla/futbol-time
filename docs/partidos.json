@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T16:52:40Z",
+ "actualizado": "2026-11-15T18:55:52Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -702,6 +702,60 @@
    "estado_texto": "Scheduled"
   },
   {
+   "id": "esp.1-401882777",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2026-12-05T17:30:00Z",
+   "local": {
+    "id": "102",
+    "nombre": "Villarreal",
+    "abrev": "VIL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "estadio": "Estadio de la Cerámica",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "esp.1-401882783",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2026-12-05T20:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "85",
+    "nombre": "Celta Vigo",
+    "abrev": "CEL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "favorito": false
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
    "id": "esp.1-401882785",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
@@ -749,60 +803,6 @@
     "favorito": false
    },
    "estadio": "Riyadh Air Metropolitano",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
-  },
-  {
-   "id": "esp.1-401882783",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-12-06T20:00:00Z",
-   "local": {
-    "id": "83",
-    "nombre": "Barcelona",
-    "abrev": "BAR",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "85",
-    "nombre": "Celta Vigo",
-    "abrev": "CEL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-    "favorito": false
-   },
-   "estadio": "Spotify Camp Nou",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
-  },
-  {
-   "id": "esp.1-401882777",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-12-06T20:00:00Z",
-   "local": {
-    "id": "102",
-    "nombre": "Villarreal",
-    "abrev": "VIL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "89",
-    "nombre": "Real Sociedad",
-    "abrev": "RSO",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "favorito": true
-   },
-   "estadio": "Estadio de la Cerámica",
    "tv": [
     "ESPN+"
    ],
