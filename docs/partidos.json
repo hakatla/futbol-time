@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T15:16:37Z",
+ "actualizado": "2026-11-16T17:23:48Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -453,6 +453,7 @@
    },
    "estadio": "Estadio Martínez Valero",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
@@ -480,6 +481,7 @@
    },
    "estadio": "Santiago Bernabéu",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
@@ -534,6 +536,7 @@
    },
    "estadio": "Riazor",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
@@ -561,6 +564,7 @@
    },
    "estadio": "Reale Arena",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
