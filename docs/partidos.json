@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T22:57:08Z",
+ "actualizado": "2026-11-17T01:24:29Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -840,7 +840,7 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/8 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915285",
@@ -867,7 +867,7 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/8 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915284",
@@ -894,7 +894,7 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/8 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "uefa.champions-401915367",
