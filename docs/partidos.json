@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T23:02:29Z",
+ "actualizado": "2026-11-18T01:28:15Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -921,7 +921,7 @@
     "Paramount+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "12/9 - 3:00 PM EST"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882770",
