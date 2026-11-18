@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:07:56Z",
+ "actualizado": "2026-11-18T21:03:57Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -1320,6 +1320,87 @@
     "abrev": "RAC",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
     "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882733",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-17T20:00:00Z",
+   "local": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "3751",
+    "nombre": "Elche",
+    "abrev": "ELC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "favorito": false
+   },
+   "estadio": "Spotify Camp Nou",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882730",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-17T20:00:00Z",
+   "local": {
+    "id": "99",
+    "nombre": "Málaga",
+    "abrev": "MCF",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "estadio": "La Rosaleda",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882736",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-17T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
    },
    "estadio": "Riyadh Air Metropolitano",
    "tv": [
