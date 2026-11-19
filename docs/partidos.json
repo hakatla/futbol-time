@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T21:02:02Z",
+ "actualizado": "2026-11-19T22:58:01Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -593,6 +593,7 @@
    "estadio": "Reale Arena",
    "tv": [
     "ESPN2",
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
@@ -621,6 +622,7 @@
    "estadio": "Spotify Camp Nou",
    "tv": [
     "ESPN2",
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
