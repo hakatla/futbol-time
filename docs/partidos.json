@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T19:13:46Z",
+ "actualizado": "2026-11-20T21:00:35Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -1410,6 +1410,33 @@
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "TBD"
+  },
+  {
+   "id": "uefa.champions-401915280",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-19T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "4411",
+    "nombre": "LASK Linz",
+    "abrev": "LAS",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/19 - 3:00 PM EST"
   }
  ]
 }
