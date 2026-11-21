@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T18:58:40Z",
+ "actualizado": "2026-11-21T20:52:25Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -44,8 +44,8 @@
     "ESPN Deportes",
     "ESPN+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_FIRST_HALF",
+   "estado_texto": "44'"
   },
   {
    "id": "usa.1-401933739",
@@ -1437,6 +1437,141 @@
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "1/19 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915273",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-20T20:00:00Z",
+   "local": {
+    "id": "2572",
+    "nombre": "Como",
+    "abrev": "COMO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "160",
+    "nombre": "PSG",
+    "abrev": "PSG",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "favorito": true
+   },
+   "estadio": "Giuseppe Sinigaglia",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/20 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915356",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-20T20:00:00Z",
+   "local": {
+    "id": "2250",
+    "nombre": "Sporting CP",
+    "abrev": "SCP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "Estádio José Alvalade",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/20 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915274",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-20T20:00:00Z",
+   "local": {
+    "id": "175",
+    "nombre": "Lens",
+    "abrev": "RCL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "382",
+    "nombre": "Manchester City",
+    "abrev": "MNC",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "favorito": true
+   },
+   "estadio": "Stade Bollaert-Delelis",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/20 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915357",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-20T20:00:00Z",
+   "local": {
+    "id": "360",
+    "nombre": "Manchester United",
+    "abrev": "MAN",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "132",
+    "nombre": "Bayern Múnich",
+    "abrev": "MUN",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "favorito": true
+   },
+   "estadio": "Old Trafford",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/20 - 3:00 PM EST"
+  },
+  {
+   "id": "uefa.champions-401915275",
+   "liga": "uefa.champions",
+   "liga_nombre": "Champions League",
+   "color": "#3B5BFF",
+   "inicio": "2027-01-20T20:00:00Z",
+   "local": {
+    "id": "244",
+    "nombre": "Real Betis",
+    "abrev": "BET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "359",
+    "nombre": "Arsenal",
+    "abrev": "ARS",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "favorito": true
+   },
+   "estadio": "Estadio La Cartuja",
+   "tv": [
+    "Paramount+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "1/20 - 3:00 PM EST"
   }
  ]
 }
