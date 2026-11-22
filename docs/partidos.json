@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T18:59:46Z",
+ "actualizado": "2026-11-22T20:54:41Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -44,8 +44,8 @@
     "ESPN Deportes",
     "ESPN+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_HALFTIME",
+   "estado_texto": "HT"
   },
   {
    "id": "usa.1-401933730",
