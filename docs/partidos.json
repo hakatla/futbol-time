@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T22:52:14Z",
+ "actualizado": "2026-11-22T01:20:59Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,34 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "esp.1-401882798",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-11-21T20:00:00Z",
-   "local": {
-    "id": "86",
-    "nombre": "Real Madrid",
-    "abrev": "RMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "85",
-    "nombre": "Celta Vigo",
-    "abrev": "CEL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-    "favorito": false
-   },
-   "estadio": "Santiago Bernabéu",
-   "tv": [
-    "ESPN Deportes",
-    "ESPN+"
-   ],
-   "estado": "STATUS_FULL_TIME",
-   "estado_texto": "FT"
-  },
   {
    "id": "usa.1-401933739",
    "liga": "usa.1",
@@ -71,8 +43,8 @@
    "tv": [
     "Apple TV"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_FULL_TIME",
+   "estado_texto": "FT"
   },
   {
    "id": "esp.1-401882804",
@@ -926,6 +898,33 @@
    "estado_texto": "Scheduled"
   },
   {
+   "id": "esp.1-401882776",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2026-12-13T20:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "94",
+    "nombre": "Valencia",
+    "abrev": "VAL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
    "id": "esp.1-401882770",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
@@ -1000,33 +999,6 @@
     "favorito": false
    },
    "estadio": "Reale Arena",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
-  },
-  {
-   "id": "esp.1-401882776",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-12-13T20:00:00Z",
-   "local": {
-    "id": "1068",
-    "nombre": "Atlético de Madrid",
-    "abrev": "ATM",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "94",
-    "nombre": "Valencia",
-    "abrev": "VAL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "favorito": false
-   },
-   "estadio": "Riyadh Air Metropolitano",
    "tv": [
     "ESPN+"
    ],
