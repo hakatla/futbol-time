@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T01:26:35Z",
+ "actualizado": "2026-11-23T03:06:57Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,34 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "usa.1-401933730",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-22T23:30:00Z",
-   "local": {
-    "id": "182",
-    "nombre": "Chicago Fire",
-    "abrev": "CHI",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "21300",
-    "nombre": "Charlotte FC",
-    "abrev": "CLT",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-    "favorito": false
-   },
-   "estadio": "SeatGeek Stadium",
-   "tv": [
-    "FS1",
-    "Apple TV"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "89'"
-  },
   {
    "id": "usa.1-401933728",
    "liga": "usa.1",
