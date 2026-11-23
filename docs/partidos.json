@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T07:48:05Z",
+ "actualizado": "2026-11-23T09:35:51Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -759,38 +759,11 @@
    "estado_texto": "Scheduled"
   },
   {
-   "id": "esp.1-401882776",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-12-13T20:00:00Z",
-   "local": {
-    "id": "1068",
-    "nombre": "Atlético de Madrid",
-    "abrev": "ATM",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "94",
-    "nombre": "Valencia",
-    "abrev": "VAL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "favorito": false
-   },
-   "estadio": "Riyadh Air Metropolitano",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
-  },
-  {
    "id": "esp.1-401882770",
    "liga": "esp.1",
    "liga_nombre": "LaLiga",
    "color": "#FF9F1C",
-   "inicio": "2026-12-13T20:00:00Z",
+   "inicio": "2026-12-12T17:30:00Z",
    "local": {
     "id": "99",
     "nombre": "Málaga",
@@ -810,7 +783,61 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "esp.1-401882776",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2026-12-13T13:00:00Z",
+   "local": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "94",
+    "nombre": "Valencia",
+    "abrev": "VAL",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "favorito": false
+   },
+   "estadio": "Riyadh Air Metropolitano",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
+  },
+  {
+   "id": "esp.1-401882768",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2026-12-13T17:30:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "2922",
+    "nombre": "Getafe",
+    "abrev": "GET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882769",
@@ -837,34 +864,7 @@
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
-  },
-  {
-   "id": "esp.1-401882768",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-12-13T20:00:00Z",
-   "local": {
-    "id": "89",
-    "nombre": "Real Sociedad",
-    "abrev": "RSO",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "2922",
-    "nombre": "Getafe",
-    "abrev": "GET",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "favorito": false
-   },
-   "estadio": "Reale Arena",
-   "tv": [
-    "ESPN+"
-   ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "TBD"
+   "estado_texto": "Scheduled"
   },
   {
    "id": "esp.1-401882762",
