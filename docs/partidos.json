@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T22:53:47Z",
+ "actualizado": "2026-11-23T01:26:35Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,34 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "esp.1-401882803",
-   "liga": "esp.1",
-   "liga_nombre": "LaLiga",
-   "color": "#FF9F1C",
-   "inicio": "2026-11-22T20:00:00Z",
-   "local": {
-    "id": "2922",
-    "nombre": "Getafe",
-    "abrev": "GET",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "1068",
-    "nombre": "Atlético de Madrid",
-    "abrev": "ATM",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "favorito": true
-   },
-   "estadio": "Estadio Coliseum",
-   "tv": [
-    "ESPN Deportes",
-    "ESPN+"
-   ],
-   "estado": "STATUS_FULL_TIME",
-   "estado_texto": "FT"
-  },
   {
    "id": "usa.1-401933730",
    "liga": "usa.1",
@@ -72,8 +44,8 @@
     "FS1",
     "Apple TV"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "89'"
   },
   {
    "id": "usa.1-401933728",
