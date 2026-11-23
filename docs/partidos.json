@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T15:18:05Z",
+ "actualizado": "2026-11-23T17:13:13Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -618,6 +618,7 @@
    },
    "estadio": "San Mamés",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
@@ -645,6 +646,7 @@
    },
    "estadio": "Riyadh Air Metropolitano",
    "tv": [
+    "ESPN Deportes",
     "ESPN+"
    ],
    "estado": "STATUS_SCHEDULED",
