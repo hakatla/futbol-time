@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T21:05:34Z",
+ "actualizado": "2026-11-24T23:07:29Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,87 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "uefa.champions-401915295",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-24T20:00:00Z",
-   "local": {
-    "id": "359",
-    "nombre": "Arsenal",
-    "abrev": "ARS",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "124",
-    "nombre": "Borussia Dortmund",
-    "abrev": "DOR",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-    "favorito": false
-   },
-   "estadio": "Emirates Stadium",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "49'"
-  },
-  {
-   "id": "uefa.champions-401915379",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-24T20:00:00Z",
-   "local": {
-    "id": "382",
-    "nombre": "Manchester City",
-    "abrev": "MNC",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "114",
-    "nombre": "Napoli",
-    "abrev": "NAP",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "favorito": false
-   },
-   "estadio": "Etihad Stadium",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "48'"
-  },
-  {
-   "id": "uefa.champions-401915298",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-24T20:00:00Z",
-   "local": {
-    "id": "86",
-    "nombre": "Real Madrid",
-    "abrev": "RMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "148",
-    "nombre": "PSV Eindhoven",
-    "abrev": "PSV",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-    "favorito": false
-   },
-   "estadio": "Santiago Bernabéu",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "46'"
-  },
   {
    "id": "uefa.champions-401915378",
    "liga": "uefa.champions",
