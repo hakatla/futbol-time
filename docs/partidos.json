@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T23:03:36Z",
+ "actualizado": "2026-11-24T01:25:30Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -24,7 +24,7 @@
    "liga": "usa.1",
    "liga_nombre": "MLS",
    "color": "#E31B23",
-   "inicio": "2026-11-24T01:00:00Z",
+   "inicio": "2026-11-24T01:15:00Z",
    "local": {
     "id": "21812",
     "nombre": "St. Louis CITY SC",
