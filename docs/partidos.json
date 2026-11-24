@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T03:01:56Z",
+ "actualizado": "2026-11-24T05:19:53Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,34 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "usa.1-401933728",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-24T01:15:00Z",
-   "local": {
-    "id": "21812",
-    "nombre": "St. Louis CITY SC",
-    "abrev": "STL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "18966",
-    "nombre": "LAFC",
-    "abrev": "LAFC",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-    "favorito": true
-   },
-   "estadio": "Energizer Park",
-   "tv": [
-    "FS1",
-    "Apple TV"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "79'"
-  },
   {
    "id": "uefa.champions-401915295",
    "liga": "uefa.champions",
