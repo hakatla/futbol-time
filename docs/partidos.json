@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T19:11:47Z",
+ "actualizado": "2026-11-24T21:05:34Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -43,8 +43,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "49'"
   },
   {
    "id": "uefa.champions-401915379",
@@ -70,8 +70,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "48'"
   },
   {
    "id": "uefa.champions-401915298",
@@ -97,8 +97,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "46'"
   },
   {
    "id": "uefa.champions-401915378",
