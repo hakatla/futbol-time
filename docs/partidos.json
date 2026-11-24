@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T01:25:30Z",
+ "actualizado": "2026-11-24T03:01:56Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -44,8 +44,8 @@
     "FS1",
     "Apple TV"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "79'"
   },
   {
    "id": "uefa.champions-401915295",
