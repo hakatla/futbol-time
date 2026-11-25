@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T19:05:53Z",
+ "actualizado": "2026-11-25T21:07:51Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,33 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "uefa.champions-401915378",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-25T17:45:00Z",
-   "local": {
-    "id": "21922",
-    "nombre": "Sabah FK",
-    "abrev": "SAB",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "83",
-    "nombre": "Barcelona",
-    "abrev": "BAR",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "favorito": true
-   },
-   "estadio": "Baku Olympic Stadium",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "63'"
-  },
   {
    "id": "uefa.champions-401915377",
    "liga": "uefa.champions",
@@ -70,8 +43,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "50'"
   },
   {
    "id": "uefa.champions-401915374",
@@ -97,8 +70,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "48'"
   },
   {
    "id": "usa.1-401933727",
@@ -1298,6 +1271,114 @@
    ],
    "estado": "STATUS_SCHEDULED",
    "estado_texto": "1/20 - 3:00 PM EST"
+  },
+  {
+   "id": "esp.1-401882726",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-24T20:00:00Z",
+   "local": {
+    "id": "96",
+    "nombre": "Alavés",
+    "abrev": "ALA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "83",
+    "nombre": "Barcelona",
+    "abrev": "BAR",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "favorito": true
+   },
+   "estadio": "Mendizorrotza",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882719",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-24T20:00:00Z",
+   "local": {
+    "id": "86",
+    "nombre": "Real Madrid",
+    "abrev": "RMA",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "244",
+    "nombre": "Real Betis",
+    "abrev": "BET",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "favorito": false
+   },
+   "estadio": "Santiago Bernabéu",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882718",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-24T20:00:00Z",
+   "local": {
+    "id": "89",
+    "nombre": "Real Sociedad",
+    "abrev": "RSO",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "favorito": true
+   },
+   "visitante": {
+    "id": "99",
+    "nombre": "Málaga",
+    "abrev": "MCF",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "favorito": false
+   },
+   "estadio": "Reale Arena",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
+  },
+  {
+   "id": "esp.1-401882724",
+   "liga": "esp.1",
+   "liga_nombre": "LaLiga",
+   "color": "#FF9F1C",
+   "inicio": "2027-01-24T20:00:00Z",
+   "local": {
+    "id": "90",
+    "nombre": "Deportivo",
+    "abrev": "DEP",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "favorito": false
+   },
+   "visitante": {
+    "id": "1068",
+    "nombre": "Atlético de Madrid",
+    "abrev": "ATM",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "favorito": true
+   },
+   "estadio": "Riazor",
+   "tv": [
+    "ESPN+"
+   ],
+   "estado": "STATUS_SCHEDULED",
+   "estado_texto": "TBD"
   }
  ]
 }
