@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:07:51Z",
+ "actualizado": "2026-11-25T23:05:10Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,60 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "uefa.champions-401915377",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-25T20:00:00Z",
-   "local": {
-    "id": "166",
-    "nombre": "Lille",
-    "abrev": "LILL",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "132",
-    "nombre": "Bayern Múnich",
-    "abrev": "MUN",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-    "favorito": true
-   },
-   "estadio": "Decathlon Arena - Stade Pierre-Mauroy",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "50'"
-  },
-  {
-   "id": "uefa.champions-401915374",
-   "liga": "uefa.champions",
-   "liga_nombre": "Champions League",
-   "color": "#3B5BFF",
-   "inicio": "2026-11-25T20:00:00Z",
-   "local": {
-    "id": "160",
-    "nombre": "PSG",
-    "abrev": "PSG",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-    "favorito": true
-   },
-   "visitante": {
-    "id": "104",
-    "nombre": "AS Roma",
-    "abrev": "ROMA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "favorito": false
-   },
-   "estadio": "Parc des Princes",
-   "tv": [
-    "Paramount+"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "48'"
-  },
   {
    "id": "usa.1-401933727",
    "liga": "usa.1",
