@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T17:14:15Z",
+ "actualizado": "2026-11-25T19:05:53Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -43,8 +43,8 @@
    "tv": [
     "Paramount+"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_SECOND_HALF",
+   "estado_texto": "63'"
   },
   {
    "id": "uefa.champions-401915377",
