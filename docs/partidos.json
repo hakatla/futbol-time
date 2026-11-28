@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T03:03:28Z",
+ "actualizado": "2026-11-28T05:13:05Z",
  "zona_horaria": "America/Santo_Domingo",
  "competiciones": [
   {
@@ -19,34 +19,6 @@
   }
  ],
  "partidos": [
-  {
-   "id": "usa.1-401933727",
-   "liga": "usa.1",
-   "liga_nombre": "MLS",
-   "color": "#E31B23",
-   "inicio": "2026-11-28T01:00:00Z",
-   "local": {
-    "id": "183",
-    "nombre": "Columbus Crew",
-    "abrev": "CLB",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-    "favorito": false
-   },
-   "visitante": {
-    "id": "20232",
-    "nombre": "Inter Miami",
-    "abrev": "MIA",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-    "favorito": true
-   },
-   "estadio": "ScottsMiracle-Gro Field",
-   "tv": [
-    "FS1",
-    "Apple TV"
-   ],
-   "estado": "STATUS_SECOND_HALF",
-   "estado_texto": "89'"
-  },
   {
    "id": "usa.1-401933737",
    "liga": "usa.1",
@@ -295,8 +267,8 @@
    "tv": [
     "Apple TV"
    ],
-   "estado": "STATUS_SCHEDULED",
-   "estado_texto": "Scheduled"
+   "estado": "STATUS_CANCELED",
+   "estado_texto": "Canceled"
   },
   {
    "id": "usa.1-401933718",
